@@ -10,8 +10,6 @@ app = flask.Flask(__name__)
 
 
 def main():
-    register_blueprints()
-    setup_db()
     app.run(debug=True, port=5006)
 
 
@@ -40,3 +38,6 @@ def register_blueprints():
 
 if __name__ in ['__main__','app']:
     main()
+
+register_blueprints()
+setup_db()

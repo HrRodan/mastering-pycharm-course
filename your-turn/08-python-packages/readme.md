@@ -109,7 +109,6 @@ Now, in the terminal, change out of that folder to somewhere else. Run Python 3 
 
 ```
 $ python3
-import calcy
 calcy.math.add(7, 5)
 12
 ```
