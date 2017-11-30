@@ -1,16 +1,17 @@
 .items .item {
-  background: #76f6d5;
-  border: 1px solid #21a180;
-  border-radius: 5px;
+  background: #710b27;
+  border: 1px solid #1c0000;
+  border-radius: 8px;
   display: inline-block;
-  width: 200px;
-  padding: 5px;
-  margin: 10px;
+  width: 44px;
+  padding: 12px;
+  margin: 27px;
 }
 .items .item h2 {
   text-align: center;
 }
 .items .item .text {
-  color: #21a180;
+  color: #1c0000;
   text-align: center;
 }
+/*# sourceMappingURL=site.css.map */

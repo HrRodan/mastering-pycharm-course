@@ -6,6 +6,7 @@
         <entryData>
           <resourceRoots>
             <path value="file://$PROJECT_DIR$/demos/projects/web_serverside/first_pyramid/first_pyramid" />
+            <path value="file://$PROJECT_DIR$/demos/projects/web_serverside/first_flask" />
           </resourceRoots>
         </entryData>
       </entry>
