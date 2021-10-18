@@ -1,6 +1,9 @@
 import service
 
-__VERSION__ = "2.1"
+def print_header():
+    print("------------------------------------------")
+    print(f"  TALK PYTHON PODCAST DOWNLOADER v{__VERSION__}")
+    print("------------------------------------------")
 
 
 def main():
@@ -8,11 +11,7 @@ def main():
     service.download_info()
     show_titles()
 
-
-def print_header():
-    print("------------------------------------------")
-    print(f"  TALK PYTHON PODCAST DOWNLOADER v{__VERSION__}")
-    print("------------------------------------------")
+__VERSION__ = "2.1"
 
 
 def show_titles():

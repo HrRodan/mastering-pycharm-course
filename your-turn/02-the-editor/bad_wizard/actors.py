@@ -17,7 +17,13 @@ class Creature:
 
 class Wizard(Creature):
 
-    def attack(self, creature):
+    def attack(self, creature: Creature) -> bool:
+        """
+        Attacks a givven creature and determines win or loos.
+
+        :param creature: Creature to attack of type Creature.
+        :return: True if won, else False.
+        """
         print("The wizard {} attacks {}!".format(
             self.name, creature.name
         ))
@@ -34,6 +40,9 @@ class Wizard(Creature):
         else:
             print("The wizard has been DEFEATED!!!")
             return False
+
+    def wake_up(self):
+        print(f"The wizard {self.name} awakes in a dark dungeon.")
 
 
 class SmallAnimal(Creature):
